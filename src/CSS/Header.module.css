@@ -4,7 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .logo{
@@ -13,7 +13,7 @@
 
 .menu{
     width: 50%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 ul{

@@ -11,7 +11,9 @@ function Header(){
            <nav className={styles.menu}>
            <ul>
                 <li>Home</li>
-                <li><Link to="Info"></Link>Info</li>
+                <Link>
+                <li>Informações</li>
+                </Link>
                 <li>Canditos</li>
                 <Link to="SobreNos">  <li>Sobre nós</li> </Link>
                
