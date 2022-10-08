@@ -1,1 +1,35 @@
-import 
+.corpo{
+    width: 100%;
+    height:auto;
+    /* background-color:lightblue; */
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    }
+
+    .texto{
+        width:65%;
+        height: 300px;
+        /* text-align:left; */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        color: #14007E;
+    }
+    .circulo{
+
+        /* margin-top: 15px; */
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        border-radius: 50%;
+        align-items: center;
+        display: flex;
+        
+    }
+    .BolsonaroFoto{
+        margin-left: -100px;
+        margin-top: 70px;
+        width: 500px
+    }

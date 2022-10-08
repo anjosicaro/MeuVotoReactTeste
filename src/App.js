@@ -1,16 +1,17 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Home from './Components/Home'
 import Header from './Components/Header'
-import Infos from './Components/Infos'
-import Candidatos from './Components/Candidatos'
-import SobreNos from './Components/SobreNos'
 import './App.css';
 import Footer from './Components/Footer'
-import Recomendacao from './Components/Recomendacao'
-import { useRef } from 'react'
+import Lula from './Components/Lula';
+import Bolsonaro from './Components/Bolsonaro';
+import Recomendacao from './Components/Recomendacao';
+import Candidatos from './Components/Candidatos';
+import Infos from './Components/Infos';
+
 
 function App() {
-  const Candidatoshref= useRef()
+  
   return (
     <>
     <Router>
@@ -18,7 +19,11 @@ function App() {
       
       <Routes>
       <Route path="/" element={<Home />}/> 
-      <Route path='/SobreNos' element={<SobreNos/>}/>
+      <Route path='/Infos' element={<Infos />} />
+      <Route path='/Recomendacao' element={<Recomendacao/>}/>
+      <Route path='/Candidatos' element={<Candidatos/>} />
+      <Route path='/Lula' element={<Lula />} />
+      <Route path='/Bolsonaro' element={<Bolsonaro />} />
       </Routes>
     
       <Footer />
