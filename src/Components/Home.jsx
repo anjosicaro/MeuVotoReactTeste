@@ -4,7 +4,10 @@ import Candidatos from "./Candidatos";
 import Infos from "./Infos";
 import Recomendacao from "./Recomendacao";
 
-function Home() {
+function Home({
+    Candidatoshref
+}) {
+
   return (
     <>
       <section className={styles.corpo}>
@@ -27,7 +30,7 @@ function Home() {
       </section>
 
       <Infos />
-      <Candidatos />
+      <Candidatos/>
       <Recomendacao />
     </>
   );

@@ -7,12 +7,14 @@ import SobreNos from './Components/SobreNos'
 import './App.css';
 import Footer from './Components/Footer'
 import Recomendacao from './Components/Recomendacao'
+import { useRef } from 'react'
 
 function App() {
+  const Candidatoshref= useRef()
   return (
     <>
     <Router>
-      <Header />
+      <Header/>
       
       <Routes>
       <Route path="/" element={<Home />}/> 

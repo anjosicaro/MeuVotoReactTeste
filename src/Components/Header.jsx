@@ -14,7 +14,7 @@ function Header(){
             
                 <li>Informações</li>
             
-                <li>Canditos</li>
+                <li> Cnadidatos </li>
                 <Link to="SobreNos">  <li>Sobre nós</li> </Link>
                
             </ul>
