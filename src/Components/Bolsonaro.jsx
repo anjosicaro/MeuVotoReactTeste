@@ -5,7 +5,7 @@ function Bolsonaro(){
         <section className={styles.corpo}>
             <div className={styles.texto}>
                 <h1>Jair Messias <span>Bolsonaro</span></h1>
-                <p>Partido Liberal</p>
+                <p>Partido <span>Liberal</span> </p>
             </div>
             <div className={styles.circulo}>
                 <img src={BolsonaroFoto} alt="" className={styles.BolsonaroFoto}/>

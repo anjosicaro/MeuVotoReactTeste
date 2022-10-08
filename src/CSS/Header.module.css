@@ -25,6 +25,12 @@ ul{
     font-size: 20px;
 }
 
+li, a {
+    text-decoration: none;
+    color: #14007E;
+    /* font-size: 25px; */
+}
+
 /* @media screen and (max-width: 450px) {
    
 } */

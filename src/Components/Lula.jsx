@@ -9,7 +9,7 @@ function Lula() {
       </div>
       <div className={styles.texto}>
         <h1>Luiz Inacio <span className={styles.span}>Lula</span>  da Silva</h1>
-        <p>Partido dos Trabalhadores</p>
+        <p>Partido dos <span className={styles.span}>Trabalhadores</span> </p>
       </div>
     </section>
   );
