@@ -6,6 +6,7 @@ import Candidatos from './Components/Candidatos'
 import SobreNos from './Components/SobreNos'
 import './App.css';
 import Footer from './Components/Footer'
+import Recomendacao from './Components/Recomendacao'
 
 function App() {
   return (
@@ -16,10 +17,10 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />}/> 
       <Route path='/SobreNos' element={<SobreNos/>}/>
-      {/* <Route path='/SaibaMais' element={<Lula/>} /> */}
       </Routes>
       <Infos />
       <Candidatos />
+      <Recomendacao />
       <Footer />
   
     </Router>

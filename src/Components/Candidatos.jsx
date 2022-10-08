@@ -4,6 +4,10 @@ import Bolsonaro from '../images/Bolsonaro.png'
 function Candidatos(){
     return(
         <section className={styles.corpo}>
+            <div className={styles.texto}>
+            <h1>Candidatos para o <span>segundo</span>  turno</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cum iusto earum voluptatum vero. Eveniet iste culpa, aliquam illum molestias, quas beatae quis sint atque dolor eos ipsa repudiandae asperiores.</p>
+            </div>
             <div className={styles.esquerda}>
                 <img src={Lula} alt="Lula" className={styles.imgLula}/>
                 
