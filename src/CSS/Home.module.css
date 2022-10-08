@@ -1,0 +1,42 @@
+.corpo{
+width: 100%;
+height: 600px;
+/* background-color:lightblue; */
+align-items: center;
+text-align: center;
+justify-content: space-around;
+display: flex;
+}
+
+.texto{
+    /* background-color: red; */
+    width:65%;
+    height: 300px;
+    text-align:left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #14007E;
+
+}
+h1{
+    width: 50%;
+    font-size: 40px;
+}
+p{
+    width: 50%;
+}
+
+.circle{
+    width: 570px;
+    height: 570px;
+    background-color:#FFBA08;
+    border-radius: 50%;
+    
+}
+
+.corpo img{
+    width:480px ;
+}
+
+
