@@ -4,10 +4,7 @@ import Candidatos from "./Candidatos";
 import Infos from "./Infos";
 import Recomendacao from "./Recomendacao";
 
-function Home({
-    Candidatoshref
-}) {
-
+function Home({ Candidatoshref }) {
   return (
     <>
       <section className={styles.corpo}>
@@ -26,11 +23,15 @@ function Home({
 
         <div className={styles.circle}>
           <img src={fotoHomem} alt="Moço com titulos" />
+          <div>
+            {" "}
+            Vote consciente e faça do <span>Brasil</span> um lugar melhor{" "}
+          </div>
         </div>
       </section>
 
       <Infos />
-      <Candidatos/>
+      <Candidatos />
       <Recomendacao />
     </>
   );
