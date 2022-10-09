@@ -16,6 +16,7 @@ function Candidatos() {
           asperiores.
         </p>
       </div>
+      <div className={styles.Containercandidato}>
       <div className={styles.esquerda}>
         <img src={Lula} alt="Lula" className={styles.imgLula} />
 
@@ -29,6 +30,8 @@ function Candidatos() {
           Saiba Mais
         </a>
       </div>
+      </div>
+
     </section>
   );
 }

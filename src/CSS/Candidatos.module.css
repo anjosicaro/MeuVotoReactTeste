@@ -19,9 +19,16 @@
 span{
     color: #2CA02C;
 }
+
+.Containercandidato{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    /* background-color: #14007E; */
+}
 /* Lula */
 .esquerda{
-    width: 20%;
+    width: 30%;
     height: 300px;
     border-radius: 10px;
     background-color:#B42626;
@@ -50,7 +57,7 @@ span{
 
 /* Bolso */
 .direita{
-    width: 20%;
+    width: 30%;
     height: 300px;
     border-radius: 10px;
     background-color: blue;
@@ -78,4 +85,43 @@ span{
     padding: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
 
+}
+@media screen and (max-width: 700px){
+    .corpo{
+        width: 100%;
+        height: 550px;
+        background-color: green;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .Containercandidato{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+    .esquerda{
+        width: 40%;
+        height: 200px;
+    }
+    .direita{
+        width:40%;
+        height: 200px;
+
+    }
+    .texto{
+        background-color: red;
+        width: 100%;
+        height: 180px;
+    }
+    .texto h1{
+        font-size: 30px;
+        width: 80%;
+    }
+    .texto p{
+        width: 90%;
+    }
+   
 }

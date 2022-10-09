@@ -4,7 +4,7 @@ import Candidatos from "./Candidatos";
 import Infos from "./Infos";
 import Recomendacao from "./Recomendacao";
 
-function Home({ Candidatoshref }) {
+function Home() {
   return (
     <>
       <section className={styles.corpo}>

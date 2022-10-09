@@ -56,9 +56,10 @@
 @media screen and (max-width:700px){
     .corpo{
         width: 100%;
-        height:auto;
+        height:1000px;
         background-repeat: no-repeat;
         background-size:100%;
+        background-color: yellow;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -71,8 +72,8 @@
         align-items: center;
     }
     .quadro{
-        width: 60%;
-        height: 360px;
+        width: 70%;
+        height: 200px;
         background-color:white;
         box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.502);
         align-items: center;
@@ -81,6 +82,14 @@
         flex-direction: column;
         justify-content: space-evenly;
         border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .quadro p{
+        width:90%;
+    }
+    .quadro .icones{
+        width: 30px;
+        height: 30px;
     }
 .texto p{
     display: none;
