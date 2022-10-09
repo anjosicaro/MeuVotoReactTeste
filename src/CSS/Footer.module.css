@@ -2,46 +2,83 @@
     width: 100%;
     height: auto;
     background-color:#14007E;
+    padding: 70px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+}
+.colunas{
+    width: 25%;
+    padding-left: 0 15px;
+}
+.colunas h4{
+    position: relative;
+    font-size: 18px;
+    color: #FFBA08;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+.colunas h4:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+    background-color: #228B22;
+}
+.colunas ul{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    /* justify-content: space-evenly; */
 }
-.social{
-    width: 10%;
-    height: 40px;
-    margin-top: 20px;
+.colunas ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.colunas ul li a{
     display: flex;
-    justify-content: space-evenly;
+    text-transform: capitalize;
+    color: #eee;
+    font-weight: 400;
+    font-size: 16px;
 }
-.icones{
-    width: 30px;
+.colunas ul li a:hover{
+    transition: all 0.3s ease;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.colunas .midias a img{
     height: 30px;
-}
-/* --------------------------------------- */
-.list{
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-}
-.list li{
-    font-weight: 300;
-    color: #fff;
-    list-style: none;
-}
-.list li:hover{
-    opacity: 0.5;
+    width: 30px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10%;
     color: #fff;
 }
-/* --------------------------------------- */
-hr{
-    width: 90%;
-    height: 0.5px;
-    background-color: #fff;
-    border-radius: 10px;
+.colunas .midias a img:hover{
+    transition: all 0.5s ease-in-out;
+    filter: invert(1);
 }
-/* --------------------------- */
-.logo img{
-    width: 100px;
-    height: 70px;
+.colunas img{
+    width: 300px;
+    height: 150px;
+}
+@media(max-width:574px){
+    .colunas{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:767px){
+    .colunas{
+        width: 100%;
+    }
 }
