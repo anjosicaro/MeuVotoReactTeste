@@ -52,4 +52,39 @@
 .quadro p{
     width: 80%;
 }
+
+@media screen and (max-width:700px){
+    .corpo{
+        width: 100%;
+        height:auto;
+        background-repeat: no-repeat;
+        background-size:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .container{ 
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+        align-items: center;
+    }
+    .quadro{
+        width: 60%;
+        height: 360px;
+        background-color:white;
+        box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.502);
+        align-items: center;
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 10px;
+    }
+.texto p{
+    display: none;
+}
+
+}
  

@@ -21,13 +21,15 @@ function Home({ Candidatoshref }) {
           </p>
         </div>
 
-        <div className={styles.circle}>
+       <div className={styles.imgTexto}>
+       <div className={styles.circle}>
           <img src={fotoHomem} alt="Moço com titulos" />
-          <div>
-            {" "}
-            Vote consciente e faça do <span>Brasil</span> um lugar melhor{" "}
-          </div>
         </div>
+        <div className={styles.textoResponsivo}>
+            {" "}
+            Vote consciente e faça do <span> Brasil </span> um lugar melhor{" "}
+          </div>
+       </div>
       </section>
 
       <Infos />
