@@ -1,35 +1,82 @@
-.corpo{
+/* @import url(); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.candidatos{
     width: 100%;
-    height:auto;
-    /* background-color:lightblue; */
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
+    height: auto;
     display: flex;
-    }
-
-    .texto{
-        width:65%;
-        height: 300px;
-        /* text-align:left; */
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        color: #14007E;
-    }
-    .circulo{
-
-        /* margin-top: 15px; */
-        width: 400px;
-        height: 400px;
-        background-color: blue;
-        border-radius: 50%;
-        align-items: center;
-        display: flex;
-        
-    }
-    .BolsonaroFoto{
-        margin-left: -100px;
-        margin-top: 70px;
-        width: 500px
-    }
+    justify-content: space-evenly;
+    background-color: brown;
+}
+.esquerda,.centro, .direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*----------------------------------------------------- esquerda */
+.esquerda{
+    width: 15%;
+    height: 700px;
+    background-color: aqua;
+}
+.grafico{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+.ficha{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+/*------------------------------------------------------ centro */
+.centro{
+    width: 55%;
+    background-color: cadetblue;
+}
+.centro h1{
+    width: 100%;
+    background-color: blueviolet;
+}
+.timeline{
+    width: 100%;
+    height: 300px;
+    background-color: #eee;
+}
+.slide{
+    width: 100%;
+    height: 300px;
+    background-color: springgreen;
+}
+/*----------------------------------------------------- direita */
+.direita{
+    width: 25%;
+    background-color: aqua;
+}
+.fundoImagem{
+    width: 70%;
+    height: 300px;
+    background-color: red;
+}
+.fundoImagem img{
+    width: 100%;
+    height: 100%;
+}
+.saldo{
+    box-sizing: border-box;
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    background-color: silver;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
