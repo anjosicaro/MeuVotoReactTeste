@@ -9,7 +9,9 @@ function Lula() {
       </div>
       <div className={styles.texto}>
         <h1>Luiz Inacio <span className={styles.span}>Lula</span>  da Silva</h1>
-        <p>Partido dos <span className={styles.span}>Trabalhadores</span> </p>
+        <h4>Partido dos <span className={styles.span}>Trabalhadores</span></h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum perferendis quisquam animi praesentium, tempore laborum tempora possimus accusamus, molestiae repellat nisi velit pariatur veritatis, id laboriosam adipisci maiores. Rerum, fugit?</p>
+
       </div>
     </section>
   );

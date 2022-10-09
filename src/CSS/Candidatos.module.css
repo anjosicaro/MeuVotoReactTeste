@@ -24,26 +24,28 @@ span{
     width: 20%;
     height: 300px;
     border-radius: 10px;
-    background-color: red;
+    background-color:#B42626;
     align-items:center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+
 }
 .imgLula{
     width:100% ;
     margin-bottom: 25px;
+    height:420px ;
 }
 .botaoEsquerdo{
-    color: white;
-    background-color: red;
+    color: #fff;
+    background-color:#B42626;
     width: 50%;
     height: 30px;
     text-decoration: none;
     padding: 5px;
-    
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
 }
 
 /* Bolso */
@@ -57,18 +59,23 @@ span{
     display: flex;
     flex-direction: column;
     text-align: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+
 }
 
 .imgBolsonaro{
-    width:100% ;
-    margin-bottom: 25px;
+    width:100%;
+    height: 800px;
+    margin-bottom: 35px;
 }
 
 .botaoDireito{
-    color: white;
+    color: #fff;
     background-color:blue;
     width: 50%;
     height: 30px;
     text-decoration: none;
     padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+
 }

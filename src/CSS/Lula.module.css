@@ -18,7 +18,7 @@
         color: #14007E;
     }
     .span{
-        color: red;
+        color: #B42626;
     }
 
     .circulo{
@@ -26,7 +26,7 @@
         /* margin-top: 15px; */
         width: 400px;
         height: 400px;
-        background-color: red;
+        background-color: #B42626;
         border-radius: 50%;
     }
     .LulaFoto{
