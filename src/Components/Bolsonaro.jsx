@@ -1,25 +1,31 @@
 import styles from '../CSS/Bolsonaro.module.css'
 import BolsonaroFoto from '../images/Bolsonaro.pagina.png'
-function Bolsonaro(){
-    return(
-        <section className={styles.corpo}>
-            <div className={styles.texto}>
-                <h1>Jair Messias <span>Bolsonaro</span></h1>
-                <p>Partido <span>Liberal</span> </p>
-            </div>
-            <div className={styles.circulo}>
-                <img src={BolsonaroFoto} alt="" className={styles.BolsonaroFoto}/>
-            </div>
 
-            <div className={styles.slideContainer}>
-                <div className={styles.slide}></div>
-                <div className={styles.slide}></div>
-                <div className={styles.slide}></div>
-                <div className={styles.slide}></div>
-                <div className={styles.slide}></div>
-            </div>
+function Bolsonaro() {
+  return (
+    <main className={styles.candidatos}>
+      <div className={styles.esquerda}>
+      <div className={styles.grafico}>graficos</div>
+        <div className={styles.ficha}>fichalimpaousuja</div>
+      </div>
 
-        </section>
-    )
+      <div className={styles.centro}>
+        <h1>Luiz Inácio <span>Lula</span> da Silva</h1>
+        <h4>Partido Liberal (PL) -22</h4>
+        <div className={styles.timeline}>timeline</div>
+        <div className={styles.slide}>slide</div>
+      </div>
+      
+      <div className={styles.direita}>
+      <div className={styles.fundoImagem}>
+          <img src={BolsonaroFoto} alt=""/>
+        </div>
+        <div className={styles.saldo}>
+          fazer um card
+        </div>
+      </div>
+    </main>
+  );
 }
-export default Bolsonaro
+
+export default Bolsonaro;
