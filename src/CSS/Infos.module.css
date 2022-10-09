@@ -1,7 +1,6 @@
 .corpo{
     width: 100%;
-    height: 550px;
-    /* background-color:red ; */
+    height: 800px;
     background-image: url(../images/Rectangle_32.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,42 +8,48 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    }
-    .texto{
-        width:40%;
-    }
-    
-    .texto h1{
-        color: yellow;
-        width: 100%;
-    }
-    .texto p{
-        width: 90%;
-        color: white;
-        font-size: 20px;
-    }
-    .span{
-        color: red;
-    }
- 
-    .container{ 
-        display: flex;
-        justify-content:space-evenly;
-        align-items: center;
-    }
-    .quadro{
-        width: 20%;
-        height: 300px;
-        background-color:white;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.502);
-        align-items: center;
-        text-align:center;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-
-    }
-    .quadro p{
-        width: 80%;
-    }
+}
+.texto{
+    width:40%;
+}
+.texto h1{
+    color: yellow;
+    width: 100%;
+}
+.texto p{
+    width: 80%;
+    color: white;
+    font-size: 20px;
+}
+.span{
+    color: red;
+}
+.container{ 
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.quadro{
+    width: 20%;
+    height: 370px;
+    background-color:white;
+    box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.502);
+    align-items: center;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.quadro:hover {
+    transition: all .3s ease-in-out;
+  transform: scale(1.1);
+}
+.quadro .icones{
+    width: 80px;
+    height: 80px;
+}
+.quadro p{
+    width: 80%;
+}
  
