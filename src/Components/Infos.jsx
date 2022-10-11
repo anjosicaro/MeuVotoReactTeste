@@ -4,9 +4,8 @@ function Infos(){
   return (
     <section className={styles.corpo}>
       <div className={styles.texto}>
-        <h1>A importancia de votar</h1>
-        <p>Inserido em um realidade completa de ignorancia <span className={styles.span}>"é de extrema importância"</span> se manter atualizado
-        <span className={styles.span}> verdadeiras</span>  vamos fazer uma política justa</p>
+        <h1>A importância de votar</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perferendis quasi <span className={styles.span}>tenetur</span> tenetur, numquam sapiente, ex delectus distinctio dolores animi impedit, optio nihil aliquid explicabo veniam doloribus? Enim rerum nostrum quo.</p>
       </div>
       <div className={styles.container}>
         <div className={styles.quadro}>
