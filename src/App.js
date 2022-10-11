@@ -24,7 +24,7 @@ function App() {
       <Route path='/Lula' element={<Lula />} />
       <Route path='/Bolsonaro' element={<Bolsonaro />} />
       </Routes>
-    
+   
       <Footer />
     </Router>
     </>

@@ -1,36 +1,26 @@
 import styles from "../CSS/Lula.module.css";
 import LulaFoto from "../images/Lula.png";
-import CarouselFadeExample from "./Carousel.Props";
-import noticia1 from '../images/bg.png'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import LulaHist from "./LulaHist";
+import LulaSlide from "./LulaSlide";
 
 function Lula() {
   return (
-    <main className={styles.candidatos}>
-      <div className={styles.esquerda}>
+  <>
+    <section className={styles.corpo}>
+      <div className={styles.Container}>
         <div className={styles.fundoImagem}>
-          <img src={LulaFoto} alt=""/>
+          <img src={LulaFoto} alt="Foto Lula" />
         </div>
-        <div className={styles.saldo}>
-          fazer um card
+        <div className={styles.Perfil}>
+          <h1>Luiz Inacio <span className={styles.span}>Lula</span> da Silva</h1>
+          <h4>Partido dos <span className={styles.span}>Trabalhadores</span> </h4>
+          <p>Conheça a trajetoria politica <br /> do candidato e ex presidente </p>
         </div>
       </div>
-      <div className={styles.centro}>
-        <h1>Luiz Inácio <span className={styles.span}>Lula</span> da Silva</h1>
-        <h4>Partido dos Trabalhadores (PT) - 13</h4>
-        <div className={styles.timeline}>timeline</div>
-        <CarouselFadeExample 
-        imagem={noticia1}
-        titulo={"aparece ai"}
-        texto={"descrição da noticias"}/>
-        
-      </div>
-      <div className={styles.direita}>
-        <div className={styles.grafico}>graficos</div>
-        <div className={styles.ficha}>fichalimpaousuja</div>
-      </div>
-    </main>
+    </section>
+    <LulaHist />
+    <LulaSlide />
+  </>
   );
 }
-
 export default Lula;
