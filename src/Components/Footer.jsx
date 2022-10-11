@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import styles from '../CSS/Footer.module.css'
-import logo from '../images/logoluan.png'
+import logo from '../images/logo.png'
 function Footer(){
     return(
         <footer className={styles.rodape}>
@@ -32,7 +32,9 @@ function Footer(){
                         </div>
                     </div>
                     <div className={styles.colunas}>
+                        <Link to="/">
                         <img src={logo} alt="logo" />
+                        </Link>
                     </div>
                 </div>
             </div>
