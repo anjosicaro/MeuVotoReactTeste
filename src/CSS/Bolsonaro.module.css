@@ -43,3 +43,9 @@ align-items: center;
     height: 100%;
 }
 
+.dados{
+    width: 25%;
+    height: 300px;
+    background-color: #14007E;
+
+}

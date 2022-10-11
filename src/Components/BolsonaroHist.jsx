@@ -5,9 +5,6 @@ function BolsonaroHist(){
             <div className={styles.timeLine}>
                 historico
             </div>
-            <div className={styles.grafico}>
-                grafico
-            </div>
         </section>
     )
 }
