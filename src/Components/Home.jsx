@@ -37,6 +37,7 @@ function Home() {
       <Infos />
       <Candidatos />
       <Recomendacao />
+     
     </>
   );
 }

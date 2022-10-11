@@ -41,20 +41,20 @@
 .colunas ul li:not(:last-child){
     margin-bottom: 10px;
 }
-.colunas ul li a{
+.colunas ul li {
     display: flex;
     text-transform: capitalize;
     color: #eee;
     font-weight: 400;
     font-size: 16px;
 }
-.colunas ul li a:hover{
+.colunas ul li:hover{
     transition: all 0.3s ease;
     color: #fff;
     font-weight: 600;
     padding-left: 5px;
 }
-.colunas .midias a img{
+.colunas .midias img{
     height: 30px;
     width: 30px;
     margin:0 10px 10px 0;
@@ -63,7 +63,7 @@
     border-radius: 10%;
     color: #fff;
 }
-.colunas .midias a img:hover{
+.colunas .midias img:hover{
     transition: all 0.5s ease-in-out;
     filter: invert(1);
 }
@@ -76,9 +76,15 @@
         width: 50%;
         margin-bottom: 30px;
     }
+    .colunas img{
+        filter: invert(1);
+    }
 }
 @media(max-width:767px){
     .colunas{
         width: 100%;
+    }
+    .colunas img{
+        filter: invert(1);
     }
 }
