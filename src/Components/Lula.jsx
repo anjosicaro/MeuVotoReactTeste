@@ -1,5 +1,8 @@
 import styles from "../CSS/Lula.module.css";
 import LulaFoto from "../images/Lula.png";
+import CarouselFadeExample from "./Carousel.Props";
+import noticia1 from '../images/bg.png'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Lula() {
   return (
@@ -16,7 +19,11 @@ function Lula() {
         <h1>Luiz Inácio <span className={styles.span}>Lula</span> da Silva</h1>
         <h4>Partido dos Trabalhadores (PT) - 13</h4>
         <div className={styles.timeline}>timeline</div>
-        <div className={styles.slide}>slide</div>
+        <CarouselFadeExample 
+        imagem={noticia1}
+        titulo={"aparece ai"}
+        texto={"descrição da noticias"}/>
+        
       </div>
       <div className={styles.direita}>
         <div className={styles.grafico}>graficos</div>

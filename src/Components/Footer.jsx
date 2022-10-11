@@ -9,26 +9,26 @@ function Footer(){
                     <div className={styles.colunas}>
                         <h4>Sobre nós</h4>
                         <ul>
-                            <li><a href="#">home</a></li>
+                            {/* <li><a href="#">home</a></li>
                             <li><a href="#">Politica de Privacidade</a></li>
-                            <li><a href="#">Parceiros</a></li>
+                            <li><a href="#">Parceiros</a></li> */}
                         </ul>
                     </div>
                     <div className={styles.colunas}>
                         <h4>Acessibilidade</h4>
                         <ul>
-                            <li><a href="#">Darkmode</a></li>
+                            {/* <li><a href="#">Darkmode</a></li>
                             <li><a href="#">A+</a></li>
                             <li><a href="#">Daltônico</a></li>
-                            <li><a href="#">Padrão</a></li>
+                            <li><a href="#">Padrão</a></li> */}
                         </ul>
                     </div>
                     <div className={styles.colunas}>
                         <h4>Acompanhe nos</h4>
                         <div className={styles.midias}>
-                            <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/739/739237.png" alt="fac" /></a>
+                            {/* <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/739/739237.png" alt="fac" /></a>
                             <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="inst"/></a>
-                            <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" alt="fig" /></a>
+                            <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" alt="fig" /></a> */}
                         </div>
                     </div>
                     <div className={styles.colunas}>

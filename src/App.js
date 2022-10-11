@@ -9,7 +9,6 @@ import Recomendacao from './Components/Recomendacao';
 import Candidatos from './Components/Candidatos';
 import Infos from './Components/Infos';
 
-
 function App() {
   
   return (
