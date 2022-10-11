@@ -1,6 +1,6 @@
 .corpo{
 width: 100%;
-height: 600px;
+height: 570px;
 /* background-color:lightblue; */
 align-items: center;
 text-align: center;
@@ -9,7 +9,6 @@ display: flex;
 }
 
 .texto{
-    /* background-color: red; */
     width:65%;
     height: 300px;
     text-align:left;
@@ -17,14 +16,17 @@ display: flex;
     display: flex;
     flex-direction: column;
     color: #14007E;
-
+    
 }
 .texto h1{
-    width: 50%;
+    /* background-color: red; */
+    width: 65%;
     font-size: 40px;
+    margin-bottom: 15px;
 }
 .texto p{
-    width: 50%;
+    width: 65%;
+    font-size: 20px;
 }
 .textoResponsivo{
     display: none;
@@ -32,19 +34,23 @@ display: flex;
 
 
 .circle{
-    width: 570px;
-    height: 570px;
-    background-color:#FFBA08;
+    width: 710px;
+    height: 560px;
+  
+    /* background-color:#FFBA08;
     border-radius: 50%;
+    display: flex; */
     
 }
 .circle div{
     display: none;
 }
 
-.corpo img{
-    width:480px ;
+.FotoHomem{
+    width:100% ;
+    height: 100%;
 }
+
 
 /* responsivo */
 @media screen and (max-width:700px) {
@@ -58,13 +64,14 @@ display: flex;
         display: flex;
         }
     .circle{
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         background-color:#FFBA08;
         border-radius: 50%;
         align-items: center;
         display: flex;
         flex-direction: column;
+    
     }
     .imgTexto{
         display: flex;
@@ -72,15 +79,22 @@ display: flex;
         align-items: center;
     }
     .imgTexto img{
-        width:200px ;
+        width:320px ;
+  
     }
     .texto{
         display: none;
     }
     .textoResponsivo{
-    width: 350px;
-    height: 40px;
-    display: flex;
-    background-color: #FFBA08;
-   }
+        width: 450px;
+        height: 60px;
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        background-color: #FFBA08;
+    
+    }
+    .textoResponsivo p{
+        font-size: 22px;
+    }
 }

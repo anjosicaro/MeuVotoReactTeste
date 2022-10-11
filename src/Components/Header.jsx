@@ -11,17 +11,17 @@ function Header() {
       <nav className={styles.menu}>
         <ul>
         <Link to="/">
-        <li>Home</li>
+        <li className={styles.menuLink}>Página Inicial</li>
         </Link>
           <Link to="Infos">
-          <li>Informações</li>
+          <li className={styles.menuLink}>Informações</li>
           </Link>
 
           <Link to="Candidatos">
-            <li> Candidatos </li>
+            <li className={styles.menuLink}> Candidatos </li>
           </Link>
           <Link to="Recomendacao">
-            <li>Recomendações</li>
+            <li className={styles.menuLink}>Recomendações</li>
           </Link>
         </ul>
       </nav>

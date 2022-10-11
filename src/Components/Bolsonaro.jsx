@@ -1,5 +1,5 @@
 import styles from '../CSS/Bolsonaro.module.css'
-import BolsonaroFoto from '../images/Bolsonaro.pagina.png'
+import BolsonaroFoto from '../images/Bolsonaro.png'
 
 function Bolsonaro() {
   return (

@@ -13,8 +13,8 @@ function Lula() {
         </div>
       </div>
       <div className={styles.centro}>
-        <h1>Luiz Inácio <span>Lula</span> da Silva</h1>
-        <h4>Partido Liberal (PL) -22</h4>
+        <h1>Luiz Inácio <span className={styles.span}>Lula</span> da Silva</h1>
+        <h4>Partido dos Trabalhadores (PT) - 13</h4>
         <div className={styles.timeline}>timeline</div>
         <div className={styles.slide}>slide</div>
       </div>

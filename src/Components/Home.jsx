@@ -1,5 +1,5 @@
 import styles from "../CSS/Home.module.css";
-import fotoHomem from "../images/homem.png";
+import fotoHomem from "../images/bg.png";
 import Candidatos from "./Candidatos";
 import Infos from "./Infos";
 import Recomendacao from "./Recomendacao";
@@ -23,12 +23,14 @@ function Home() {
 
        <div className={styles.imgTexto}>
        <div className={styles.circle}>
-          <img src={fotoHomem} alt="Moço com titulos" />
+       
+          <img src={fotoHomem} alt="Homem negro segurando titulo" className={styles.FotoHomem} />
         </div>
         <div className={styles.textoResponsivo}>
-            {" "}
-            Vote consciente e faça do <span> Brasil </span> um lugar melhor{" "}
-          </div>
+            <p> 
+            Vote consciente e faça do <span>Brasil</span> um lugar melhor
+            </p>
+        </div>
        </div>
       </section>
 
