@@ -13,7 +13,7 @@ function Lula() {
         </div>
         <div className={styles.Perfil}>
           <h1>Luiz Inacio <span className={styles.span}>Lula</span> da Silva</h1>
-          <h4>Partido dos <span className={styles.span}>Trabalhadores</span> </h4>
+          <h4>Partido dos <span className={styles.span}>Trabalhadores - 13</span> </h4>
           <p>Conheça a trajetoria politica <br /> do candidato e ex presidente </p>
         </div>
       </div>
