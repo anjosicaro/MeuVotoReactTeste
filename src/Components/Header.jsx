@@ -13,7 +13,7 @@ function Header() {
       <nav className={styles.menu}>
         <ul>
         <Link to="/">
-        <li className={styles.menuLink}>Página Inicial</li>
+        <li className={styles.menuLink}>Home</li>
         </Link>
           <Link to="Infos">
           <li className={styles.menuLink}>Informações</li>

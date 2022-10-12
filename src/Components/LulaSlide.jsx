@@ -1,16 +1,13 @@
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import n1 from '../images/falas/n1l.png'
-import n2 from '../images/falas/n2l.png'
-import n3 from '../images/falas/n3l.png'
 
-function CarouselFadeExample({titulo, texto,imagens}) {
+function CarouselFadeExample({imagem1, imagem2, imagem3}) {
   return (
     <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n1}
+          src={imagem1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -19,7 +16,7 @@ function CarouselFadeExample({titulo, texto,imagens}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n2}
+          src={imagem2}
           alt="Second slide"
         />
 
@@ -29,7 +26,7 @@ function CarouselFadeExample({titulo, texto,imagens}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n3}
+          src={imagem3}
           alt="Third slide"
         />
 

@@ -16,9 +16,7 @@ function Candidatos() {
       <div className={styles.Containercandidato}>
         <div className={styles.esquerda}>
           <img src={Lula} alt="Lula" className={styles.imgLula} />
-            <a href="/Lula" className={styles.esqBotao}>
-              Saiba mais!
-            </a>
+          <a href="/Lula" className={styles.button}> Saiba mais!</a>
         </div>
         <div className={styles.direita}>
           <img src={Bolsonaro} alt="Bolsonaro" className={styles.imgBolsonaro} />

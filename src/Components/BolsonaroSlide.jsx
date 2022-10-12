@@ -5,16 +5,14 @@ import n2 from '../images/falas/n2b.png'
 import n3 from '../images/falas/n3b.png'
 
 
-function CarouselFadeExample({titulo, texto, imagens}) {
+function CarouselFadeExample({imagem1, imagem2, imagem3}) {
   return (
     <Carousel fade>
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n1}
+          src={imagem1}
           alt="First slide"
-          width="100px"
-          height="100px"
         />
         <Carousel.Caption>
         </Carousel.Caption>
@@ -22,7 +20,7 @@ function CarouselFadeExample({titulo, texto, imagens}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n2}
+          src={imagem2}
           alt="Second slide"
         />
 
@@ -32,7 +30,7 @@ function CarouselFadeExample({titulo, texto, imagens}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={n3}
+          src={imagem3}
           alt="Third slide"
         />
 
