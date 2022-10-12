@@ -1,3 +1,7 @@
+*{
+    text-decoration: none !important;
+}
+
 .rodape{
     width: 100%;
     height: auto;
