@@ -1,106 +1,131 @@
-.corpo{
+.corpo {
     width: 100%;
     height: 550px;
-    /* background-color: green; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.texto{
-    width:50%;
+
+.texto {
+    width: 50%;
     height: 250px;
-    text-align:left;
+    text-align: left;
     align-items: center;
     display: flex;
     font-size: 20px;
     flex-direction: column;
     color: #14007E;
-    /* background-color: #B42626; */
 }
-.texto h1{
+
+.texto h1 {
     width: 65%;
     font-size: 50px;
     margin-bottom: 15px;
 }
-.texto p{
+
+.texto p {
     width: 65%;
 }
-span{
+
+span {
     color: #2CA02C;
 }
 
-.Containercandidato{
+.Containercandidato {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
-    /* background-color: #14007E; */
 }
+
 /* Lula */
-.esquerda{
+.esquerda {
     width: 30%;
     height: 300px;
-    /* border-radius: 10px; */
-    /* background-color:#B42626; */
-    align-items:center;
+    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452); */
-
 }
-.imgLula{
-    width:100% ;
+
+.imgLula {
+    width: 100%;
     margin-bottom: 25px;
-    height:420px ;
-    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452); */
-
+    height: 420px;
 }
-.botaoEsquerdo{
+
+.esqBotao{
     color: #fff;
-    background-color:#B42626;
-    width: 80%;
-    height: 30px;
-    text-decoration: none;
-    border-radius: 20px;
-    padding: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 1.2em 5em;
+    background: #000;
+    transition: 0.2s;
+    font-size: 12px;
 }
-
+.esqBotao:hover{
+    color: #FFBA08;
+    font-weight: 500;
+    font-size: 12px;
+    transform: translate(-0.25rem,-0.25rem);
+    background: red;
+    box-shadow: 0.25rem 0.25rem #000;  
+}
+.esqBotao:active{
+    transform: translate(0);
+    box-shadow: none;
+}
 /* Bolso */
-.direita{
+.direita {
     width: 30%;
     height: 304px;
     border-radius: 10px;
-    /* background-color: blue; */
-    align-items:center;
+    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     text-align: center;
-    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452); */
-
 }
 
-.imgBolsonaro{
-    width:100%;
+.imgBolsonaro {
+    width: 100%;
     height: 800px;
     margin-bottom: 20px;
 }
 
-.botaoDireito{
-    color: #fff;
-    background-color:#439DD2;
-    width: 80%;
-    border-radius: 20px;
-    height: 30px;
-    text-decoration: none;
-    padding: 5px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
-
+/* From uiverse.io by @cuatrofender */
+.button {
+    border: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    background: #2ca02c8e;
+    color: #FFBA08;
+    border: solid 1px #2CA02C;
+    padding: 8px 20px;
+    border-radius: 4px;
+    transition-duration: 0.2s;
 }
-@media screen and (max-width: 700px){
-    .corpo{
+
+.button:before {
+    content: "»";
+    opacity: 0;
+    margin-left: -15px;
+    transition-duration: 0.2s;
+}
+
+.button:hover:before {
+    margin-left: 0px;
+    opacity: 1;
+}
+
+.button:hover {
+    color: #fff;
+    background: #272e79;
+    border: solid 1px #272E79;
+}
+
+@media screen and (max-width: 700px) {
+    .corpo {
         width: 100%;
         height: 650px;
         /* background-color: green; */
@@ -109,34 +134,40 @@ span{
         align-items: center;
         flex-direction: column;
     }
-    .Containercandidato{
+
+    .Containercandidato {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         width: 100%;
     }
-    .esquerda{
+
+    .esquerda {
         width: 40%;
         height: 200px;
     }
-    .direita{
-        width:40%;
+
+    .direita {
+        width: 40%;
         height: 200px;
 
     }
-    .texto{
+
+    .texto {
         /* background-color: red; */
         width: 100%;
         height: 180px;
         display: flex;
         text-align: center;
     }
-    .texto h1{
+
+    .texto h1 {
         font-size: 30px;
         width: 60%;
     }
-    .texto p{
+
+    .texto p {
         width: 90%;
     }
-   
+
 }
