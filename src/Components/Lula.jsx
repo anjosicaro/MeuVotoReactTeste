@@ -43,8 +43,13 @@ function Lula() {
         </div>
       </div>
       <div className={styles.timeline}>
-        
       </div>
+     <aside className={styles.slides}>
+     <CarouselFadeExample 
+      titulo="EU VI ALMEIDA"
+      texto="aparece boceta"
+      imagens="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALcAAAETCAMAAABDSmfhAAAAS1BMVEUAAAABAQFVVVVpaWkuLi4KCgpHR0c9PT1gYGBwcHBNTU0GBgYPDw9jY2NcXFwcHBx8fHxCQkIiIiJra2uDg4MzMzOLi4uTk5MnJyfXHBoSAAAC50lEQVR4nO3Za3eiMBSF4Ry13uqlOrXj//+lYxVCoojC0iR7zft8aL1Q2abnBAjOAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACys9wBBlLNDQAAAAAAimK/awya6wyfYsHPQz2bL74Wy8/cWXoxtxqvN+PRbvKRO0ofp+FejMbL2X4rFfuUe/5nOZpOtiutMnHuezmfbw7bVe4cPR1/ptPRaCI33LOf8XJ3WGlV98nk7240O+xzx+jvez3dH9Wq+2TztZ7pDbc5W6yngsNtbrs55g4x0IfWOVXFxE4FAQDopHpUU80NPMFE61s1N/MJnqJaJ5K5zTTnE3InR+6ETlUimPtc3YK5dfuS3GmROykjd0pG7qTIndLvuQm509HNrVrfVW7R5LK5xajWt+p4q14Xm3pfKuW2hlTuIHjuJP2J55bLXlW3WGy5rqzHV60vL1FNri+r3KrzoORxx7Ry+4hix/kwd6K+7NjBgF2H452Nau4BfGZypxDUiFJuzdpOlrv144fu1MLY783+0twuXW730rZXK2rgGWXUdRkp/gfBSBdzoH6YI96gmNwdrjKWlPju8LW88epj/yCdu7ucR9y+Fj57Q6ZndO+35aqkkNz3XNY2Wq5K4qTNs1IWQ3o2YzGXMPlzPyjhrrfNb3TvkJPsmuWqrczaXr/5iBy5nxN0mIU/6zsEN5tbuF0+ce56heNR7mLaseHHu7kpU3278wOXcCrv9clXdRMEC+4uhdu/f+At3n3XlvW4BvdI6wdVpSS8eRpVZrjbeNnO/JvxGlPwWtq+bO081/qPf5Q7eV82E0KUtxrCJnK0qS+N+u8y5W72H+VuSiSuiHAN2OrJJsc82Bw96mfOx4kLxA+1q1sxrJwsyf2vq9xxbYTfJPpq+ZIHD33wsBVvi8TZ1V9mcDMPtuS21tz5T6oqdplJfK/6UshcEo9EHSiS2+cMJzrnc+cNN1D5sdsDFh+b3AAAAADwEv8A8okHcODdnNEAAAAASUVORK5CYII="/>
+     </aside>
     </section>
   );
 }
