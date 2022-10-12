@@ -6,13 +6,11 @@
     display: flex;
     justify-content: space-around;
 }
-
 .timeLine{
 width: 45%;
 height: 300px;
 background-color: red;
 }
-
 .grafico{
     width: 25%;
     height: 300px;
