@@ -14,30 +14,27 @@ function Home() {
             Vote consciente e faça do <span>Brasil</span> um lugar melhor{" "}
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            laborum eos voluptates aliquam voluptatem distinctio unde veritatis
-            omnis officia! Ut quod ipsa ipsam voluptate a placeat distinctio
-            unde hic cupiditate.
+            A plataforma “Meu voto” foi desenvolvida com o objetivo de conscientizar e informar aos eleitores brasileiros a importância de saber se posicionar diante de uma eleição entendendo os valores e propostas de cada candidato.
           </p>
         </div>
 
-       <div className={styles.imgTexto}>
-       <div className={styles.circle}>
-       
-          <img src={fotoHomem} alt="Homem negro segurando titulo" className={styles.FotoHomem} />
-        </div>
-        <div className={styles.textoResponsivo}>
-            <p> 
-            Vote consciente e faça do <span>Brasil</span> um lugar melhor
+        <div className={styles.imgTexto}>
+          <div className={styles.circle}>
+
+            <img src={fotoHomem} alt="Homem negro segurando titulo" className={styles.FotoHomem} />
+          </div>
+          <div className={styles.textoResponsivo}>
+            <p>
+              Vote consciente e faça do <span>Brasil</span> um lugar melhor
             </p>
+          </div>
         </div>
-       </div>
       </section>
 
       <Infos />
       <Candidatos />
       <Recomendacao />
-     
+
     </>
   );
 }

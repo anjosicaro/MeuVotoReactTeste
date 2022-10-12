@@ -12,13 +12,14 @@
     text-align:left;
     align-items: center;
     display: flex;
+    font-size: 20px;
     flex-direction: column;
     color: #14007E;
     /* background-color: #B42626; */
 }
 .texto h1{
     width: 65%;
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 15px;
 }
 .texto p{
@@ -58,9 +59,10 @@ span{
 .botaoEsquerdo{
     color: #fff;
     background-color:#B42626;
-    width: 60%;
+    width: 80%;
     height: 30px;
     text-decoration: none;
+    border-radius: 20px;
     padding: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
 }
@@ -89,7 +91,8 @@ span{
 .botaoDireito{
     color: #fff;
     background-color:#439DD2;
-    width: 60%;
+    width: 80%;
+    border-radius: 20px;
     height: 30px;
     text-decoration: none;
     padding: 5px;

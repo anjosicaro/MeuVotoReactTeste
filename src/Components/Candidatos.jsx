@@ -10,10 +10,7 @@ function Candidatos() {
           Candidatos para o <span>segundo</span> turno
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cum
-          iusto earum voluptatum vero. Eveniet iste culpa, aliquam illum
-          molestias, quas beatae quis sint atque dolor eos ipsa repudiandae
-          asperiores.
+        Os candidatos Luiz Inácio Lula da Silva (PT) e Jair Messias Bolsonaro (PL) vão disputar o segundo turno para a Presidência da República nas Eleições 2022, Lula obteve 47,91% (55.166.851) e Bolsonaro 43,65% (50.261.216) dos votos analisados no primeiro turno (02/10/2022).
         </p>
       </div>
       <div className={styles.Containercandidato}>
