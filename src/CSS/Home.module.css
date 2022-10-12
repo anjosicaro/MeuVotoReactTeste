@@ -100,3 +100,14 @@ display: flex;
         font-size: 22px;
     }
 }
+@media only screen and (max-width: 1400px) {
+    .FotoHomem{
+        display: none;
+    }
+    .texto{
+        width: 100%;
+        position: absolute;
+    }
+
+
+}
