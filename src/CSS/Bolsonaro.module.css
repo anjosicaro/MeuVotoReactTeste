@@ -1,24 +1,27 @@
 .candidato{
     width: 100%;
-    height: 900px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-image: linear-gradient(0deg, rgb(236, 241, 251),rgba(253, 244, 244, 0.824))
+    
 }
 .topo{
     width: 100%;
     height: 400px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;background-color: rgb(236, 237, 251);
 }
+rect{fill: rgba(0, 255, 255, 0);}
 .fundoImagem{
     width: 20%;
-    height: 480px;
+    height: 100%;
 }
 .fundoImagem img{
-    width: 100%;
+    width: 100%; height: 100%;
 }
 .Info{
     width: 40%;
@@ -31,6 +34,8 @@
 }
 .Info h4{
     font-size: 20px;
+    text-align: start;
+     padding-bottom: 3%;
 }
 .Info p{
     font-size: 14px;
@@ -40,10 +45,10 @@
     font-size: 16px;
 }
 .graficos{
-    width: 25%;
+    width: 25%;height: 100%;
 }
-            /* --------------------------- */
-.slides{
-    width: 60%;
-    height: 600px;
+ /* ------------------------------------------ */
+ .slides{
+    width: 50%;
+    height: 100%; padding-bottom: 5%;
 }
