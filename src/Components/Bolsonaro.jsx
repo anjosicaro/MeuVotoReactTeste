@@ -3,9 +3,9 @@ import BolsonaroFoto from '../images/Bolsonaro.png'
 import BolsonaroSlide from './BolsonaroSlide'
 import React from "react";
 import { Chart } from "react-google-charts";
-import noticia1 from "../images/noticia1.png"
-import noticia2 from "../images/noticia2.png"
-import noticia3 from "../images/noticia3.png"
+import noticia1 from "../images/noticia1.jpeg"
+import noticia2 from "../images/noticia2.jpeg"
+import noticia3 from "../images/noticia3.jpeg"
 
 export const data = [
   ["Regiões", "Porcentagem de votos"],

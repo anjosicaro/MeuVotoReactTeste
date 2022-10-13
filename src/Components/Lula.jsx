@@ -3,9 +3,9 @@ import LulaFoto from "../images/Lula.png";
 import CarouselFadeExample from "./LulaSlide.jsx";
 import React from "react";
 import { Chart } from "react-google-charts";
-import noticia1 from '../images/falas/n1l.png'
-import noticia2 from '../images/falas/n2l.png'
-import noticia3 from '../images/falas/n3l.png'
+import noticia1 from '../images/n1.jpeg'
+import noticia2 from '../images/n2.jpeg'
+import noticia3 from '../images/n3.jpeg'
 
 export const data = [
   ["Regiões", "Votos primeiro turno"],
