@@ -11,7 +11,7 @@ function CarouselFadeExample({imagem1, imagem2, imagem3}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imagem1}
+          src={n1}
           alt="First slide"
         />
         <Carousel.Caption>
@@ -20,7 +20,7 @@ function CarouselFadeExample({imagem1, imagem2, imagem3}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imagem2}
+          src={n2}
           alt="Second slide"
         />
 
@@ -30,7 +30,7 @@ function CarouselFadeExample({imagem1, imagem2, imagem3}) {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={imagem3}
+          src={n3}
           alt="Third slide"
         />
 

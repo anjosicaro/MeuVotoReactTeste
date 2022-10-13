@@ -6,6 +6,10 @@ import logo from '../images/logo.png'
 function Footer() {
     return (
         <footer className={styles.rodape}>
+            <div className={styles.logo}>
+                <img src={logo} alt="" />
+
+            </div>
             <div className={styles.container}>
             <div className={styles.colunas}>
                     <nav>
@@ -49,12 +53,13 @@ function Footer() {
                     </div>
                     <div className={styles.colunass}>
                         <Link to="/">
-                            <img src={logo} alt="logo" id="logoo" />
+                           
                         </Link>
                     </div>
                 
             </div>
         </footer>
+        
     )
 }
 export default Footer;
