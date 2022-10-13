@@ -1,13 +1,14 @@
 .corpo{
 width: 100%;
-height: 570px;
+height: 100%;
 /* background-color:lightblue; */
 align-items: center;
 text-align: center;
 justify-content: space-around;
-display: flex;
+display: flex;background-color: #ffffff;
+filter: brightness(93%);
 }
-
+section{width: 100%;height: 100px;}
 .texto{
     width:65%;
     height: 300px;
@@ -35,7 +36,7 @@ display: flex;
 
 .circle{
     width: 710px;
-    height: 560px;
+    height:600px;
   
     /* background-color:#FFBA08;
     border-radius: 50%;
