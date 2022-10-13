@@ -4,17 +4,14 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: pink; */
 }
 
 .logo{
     width: 70%;
-    /* background-color: red; */
 }
 
 .menu{
     width: 50%;
-    /* background-color: red; */
 }
 .menuLink{
     font-size: 20px;
@@ -34,15 +31,6 @@ ul{
     list-style: none;
     font-size: 20px;
 }
-
-li, a {
-    text-decoration: none;
-    color: #14007E;
-    /* font-size: 25px; */
-}
-
-
-
 @media screen and (max-width: 700px) {
     .corpo{
         width: 100%;

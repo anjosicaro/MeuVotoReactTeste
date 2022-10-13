@@ -5,16 +5,13 @@ import folha from '../images/LogoFolha.jpg'
 function Recomendacao() {
     return (
         <section className={styles.corpo}>
+            <h2>Se mantenha atualizado e ciente das principais notícias políticas</h2>
             <div className={styles.slideContainer}>
-                {/* =================================================================================  */}
                 <div className={styles.slide}>
                     <div className={styles.back}>
                         <div className={styles.circulo}>
                             <a href="https://g1.globo.com" target="blank">
-                            <img src={homem} alt="" />
-
-                            </a>
-                            
+                            <img src={homem} alt="" /></a>
                         </div>
                     </div>
                     <div className={styles.text}>
@@ -44,9 +41,7 @@ function Recomendacao() {
                         <div className={styles.circulo}>
                             <a href="https://www.folha.uol.com.br" target="blank">
                             <img src={folha} alt="" />
-
                             </a>
-                            
                         </div>
                     </div>
                     <div className={styles.text3}>
