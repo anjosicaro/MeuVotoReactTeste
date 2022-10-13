@@ -17,7 +17,7 @@
     font-size: 20px;
 }
 .menuLink:hover{
-color:green;
+    font-weight: 600;
 }
 .menuHamburguer{
     display: none;

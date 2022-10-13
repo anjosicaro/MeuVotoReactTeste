@@ -9,11 +9,11 @@ import noticia3 from '../images/falas/n3l.png'
 
 export const data = [
   ["Regiões", "Votos primeiro turno"],
-  ["Norte", 4],
-  ["Nordeste", 2],
-  ["Centro-Oeste", 6],
-  ["Sudeste", 4],
-  ["Sul", 7],
+  ["Norte", 3],
+  ["Nordeste", 7],
+  ["Centro-Oeste", 2],
+  ["Sudeste", 3],
+  ["Sul", 2],
 ];
 
 export const options = {

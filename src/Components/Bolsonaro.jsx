@@ -9,10 +9,10 @@ import noticia3 from "../images/noticia3.png"
 
 export const data = [
   ["Regiões", "Porcentagem de votos"],
-  ["Norte", 11],
+  ["Norte", 7],
   ["Nordeste", 2],
-  ["Centro-Oeste", 2],
-  ["Sudeste ", 2],
+  ["Centro-Oeste", 7],
+  ["Sudeste ", 3],
   ["Sul", 7],
 ];
 
