@@ -44,7 +44,7 @@ function Footer() {
                      </nav>
                 </div>
                     <div className={styles.colunas}>
-                        <h4>se atualiza:</h4>
+                        <h4>Nos acompanhe</h4>
                         <div className={styles.midias}>
                             <img src="https://cdn-icons-png.flaticon.com/512/739/739237.png" alt="fac" />
                             <img src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png" alt="inst" />

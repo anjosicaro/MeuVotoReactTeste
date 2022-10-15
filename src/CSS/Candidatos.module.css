@@ -15,7 +15,7 @@
     display: flex;
     font-size: 20px;
     flex-direction: column;
-    color: #14007E;
+    color: #0A58CA;
 }
 
 .texto h1 {
@@ -77,7 +77,7 @@ span {
     border: none;
     font-family: sans-serif;
     font-size: 17px;
-    background: #272e79;
+    background: #0A58CA;
     color: #FFBA08;
     padding: 8px 20px;
     border-radius: 4px;
@@ -98,7 +98,7 @@ span {
 
 .button:hover {
     color: #fff;
-    background: #272e79;
+    background: #0A58CA;
     border: solid 1px #272E79;
 }
 
