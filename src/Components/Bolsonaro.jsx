@@ -3,9 +3,13 @@ import BolsonaroFoto from '../images/Bolsonaro.png'
 import BolsonaroSlide from './BolsonaroSlide'
 import React from "react";
 import { Chart } from "react-google-charts";
-import noticia1 from "../images/noticia1.jpeg"
-import noticia2 from "../images/noticia2.jpeg"
-import noticia3 from "../images/noticia3.jpeg"
+import noticia1 from "../images/noticia1.jpeg";
+import noticia2 from "../images/noticia2.jpeg";
+import noticia3 from "../images/noticia3.jpeg";
+import fotoesquerda from '../images/jairjair.png';
+import fotodireita1 from '../images/elenunca.png';
+import fotodireita2 from '../images/elenao.png';
+
 
 export const data = [
   ["Regiões", "Porcentagem de votos"],
@@ -45,15 +49,29 @@ function Bolsonaro() {
           />
         </div>
       </div>
+      <div className={styles.partebaixo}>
+      <h3>Polemicas envolvendo o Ex Presidente, e candidato Lula da Silva</h3>
       <div className={styles.timeline}>
+      <img src={fotoesquerda} alt="Foto do candidato Lula"className={styles.fotoesquerda} />
       </div>
+
       <aside className={styles.slides}>
-        <h3>Polemicas envolvendo o Atual Presidente, e candidato Jair Bolsonaro</h3>
       <BolsonaroSlide
         imagem1={noticia1}
         imagem2={noticia2}
         imagem3={noticia3} />
       </aside>
+      <div className={styles.timeline}>
+    
+      <div className={styles.cardtotal}>
+      <img src={fotodireita1} alt="Foto do candidato Lula"className={styles.fotoesquerda} />
+      </div>
+      <div className={styles.cardtotal}>
+      <img src={fotodireita2} alt="Foto do candidato Lula"className={styles.fotoesquerda} />
+        
+        </div>
+      </div>
+      </div>
     </section>
   );
 
