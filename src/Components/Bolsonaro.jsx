@@ -48,7 +48,6 @@ function Bolsonaro() {
         <div className={styles.fundoImagem}>
           <img src={BolsonaroFoto} alt="Foto Bolsonaro" />
         </div>
-
         <div className={styles.Info}>
           <h1>Jair Messias <span>Bolsonaro</span></h1>
           <h4>Partido dos <span>Liberal - 22</span> </h4>
@@ -114,27 +113,12 @@ function Bolsonaro() {
       </div>
       <div className={styles.partebaixo}>
         <h3>Polemicas envolvendo o Ex Presidente, e candidato Lula da Silva</h3>
-        {/* <div className={styles.timeline}>
-          <img src={fotoesquerda} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-        </div> */}
-
         <aside className={styles.slides}>
           <BolsonaroSlide
             imagem1={noticia1}
             imagem2={noticia2}
             imagem3={noticia3} />
         </aside>
-        <div className={styles.timeline}>
-
-
-          {/* <div className={styles.cardtotal}>
-            <img src={fotodireita1} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-          </div>
-          <div className={styles.cardtotal}>
-            <img src={fotodireita2} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-
-          </div> */}
-        </div>
       </div>
     </section>
   );

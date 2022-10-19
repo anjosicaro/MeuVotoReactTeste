@@ -6,9 +6,6 @@ import { Chart } from "react-google-charts";
 import noticia1 from '../images/n1.jpeg';
 import noticia2 from '../images/n2.jpeg';
 import noticia3 from '../images/n3.jpeg';
-import fotoesquerda from '../images/ch.png';
-import fotodireita1 from '../images/lu-la.png';
-import fotodireita2 from '../images/nota-folha.png';
 
 export const data = [
   ["Regiões", "Votos primeiro turno"],
@@ -89,7 +86,6 @@ function Lula() {
           </div>
         </div>
         {/* ======================================= item da time ============================================== */}
-
         <div className={styles.timeItem}>
           <div className={styles.ano}>
             <h1>2019</h1>
@@ -102,33 +98,14 @@ function Lula() {
           </div>
         </div>
         {/* ======================================= item da time ============================================== */}
-        
-
       </div>
-      <div className={styles.partebaixo}>
+      <aside className={styles.slides}>
         <h3>Polemicas envolvendo o Ex Presidente, e candidato Lula da Silva</h3>
-        <div className={styles.timeline}>
-          <img src={fotoesquerda} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-        </div>
-        <aside className={styles.slides}>
-
-          <CarouselFadeExample
-            imagem1={noticia1}
-            imagem2={noticia2}
-            imagem3={noticia3} />
-
-        </aside>
-        <div className={styles.timeline}>
-          <div className={styles.cardtotal}>
-            <img src={fotodireita1} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-          </div>
-          <div className={styles.cardtotal}>
-            <img src={fotodireita2} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-
-          </div>
-        </div>
-
-      </div>
+        <CarouselFadeExample
+          imagem1={noticia1}
+          imagem2={noticia2}
+          imagem3={noticia3} />
+      </aside>
     </section>
   );
 }
