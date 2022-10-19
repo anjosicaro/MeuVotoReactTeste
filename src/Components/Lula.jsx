@@ -67,10 +67,12 @@ function Lula() {
       <div className={styles.cardtotal}>
       <img src={fotodireita1} alt="Foto do candidato Lula"className={styles.fotoesquerda} />
       </div>
-      <div className={styles.cardtotal}>
-      <img src={fotodireita2} alt="Foto do candidato Lula"className={styles.fotoesquerda} />
-        
+      <div className={styles.conteudopasta}>
+      <div className={styles.pasta}>CONFIDENCIALX</div>
+      <div className={styles.pastatotal}>
+     
         </div>
+      </div>
       </div>
       </div>
     </section>
