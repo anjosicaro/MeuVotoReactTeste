@@ -5,7 +5,7 @@
 .rodape{
     width: 100%;
     height: 300px;
-    background-color: #0A58CA;
+    background-color: #000f26;
     display: flex;
     align-items: center;text-align: center;
     justify-content: space-around;
@@ -27,6 +27,11 @@ li{
 .colunas{
     width: 40%;
     padding-left: 0 15px;
+    /* background-color: #FFBA08; */
+}
+.colunas2{
+    width: 20rem;
+    
 }
 .colunas h4{
     position: relative;
@@ -36,7 +41,7 @@ li{
     font-weight: 500;
 }
 h4{
-    width: 60%;
+    width: 100%;
 }
 .colunas ul{
     display: flex;
@@ -45,6 +50,7 @@ h4{
     padding-top: 5%;
     border-spacing: 1px;
     align-items: center;
+    /* background-color: #FFBA08; */
 }
 .colunas ul li:not(:last-child){
     margin-bottom: 10px;
@@ -82,6 +88,8 @@ h4{
 }
 .logo{
     width: 200px;
+    position: absolute;
+    left: 2rem;
 }
 .logo img{
     width: 100%;
@@ -92,6 +100,7 @@ h4{
 }
 
 .colunass{display: none;}
+
 @media(max-width:574px){
     .colunas{
         width: 50%;

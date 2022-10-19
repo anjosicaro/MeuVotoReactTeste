@@ -1,24 +1,28 @@
 .candidato{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    background-image: linear-gradient(0deg, rgb(236, 241, 251),rgba(253, 244, 244, 0.824))
     
-    
+}
+:root{
+    --corTimeLine-color: #0000
 }
 .topo{
     width: 100%;
-    height: 400px; background-color: rgba(255, 207, 207, 0.322);
+    height: 450px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;}
-
-
+    align-items: center;background-color: rgb(250, 214, 214);
+}
+rect{fill: rgba(0, 255, 255, 0);}
 .fundoImagem{
-    width: 20%;
-    height: 100%;
+    width: 30rem;
+    height: 45rem;
+    margin-bottom: 4rem;
 }
 .fundoImagem img{
     width: 100%; height: 100%;
@@ -38,14 +42,14 @@
      padding-bottom: 3%;
 }
 .Info p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
 }
 .Info a{
     font-size: 16px;
 }
 .graficos{
-    width: 25%;height: 90%;
+    width: 25%;height: 100%;
 }
  /* ------------------------------------------ */
  .slides{
@@ -54,16 +58,88 @@
 }
 .partebaixo{ 
     width: 100%;
-    height: 500px;
+    height: 50rem;
+    margin-bottom: 10rem;
+    /* background-color: aquamarine; */
    }
+/* ================================================= timeLine =================================================== */
+.time{
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+.hline{
+    margin-top: 6rem;
+    position: absolute;
+    width: 90%;
+    height: 1rem;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.ano{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 14rem;
+    height: 9rem;
+    /* background-color: aqua; */
+}
+.timeItem{
+    width: 40rem;
+    height: auto;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.timeText{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    /* background-color: rgb(143, 142, 142); */
+    margin-top: 10rem;
+    bottom: 0;
+    font-size: 2rem;
+    text-align: center;
+}
+.timeText p{
+    margin: 0 2rem;
+}
+.hlinebutton{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,#ED213A, #93291E);
+    border: 10px solid rgb(8, 7, 7);
+}
+.hlinebutton:hover{
+    background: linear-gradient(to bottom,#ffa9b3, #360702);
+
+}
+/* ================================================= timeLine =================================================== */
 
 .timeline{
     width: 25%;
-    height: 80%;
+    height: 100%;
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
     align-items: center;
+    /* background-color: #000046; */
     float: left;}
     .cardtotal{
         width:80%;
