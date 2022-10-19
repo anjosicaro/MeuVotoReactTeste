@@ -7,8 +7,8 @@ import noticia1 from "../images/noticia1.jpeg";
 import noticia2 from "../images/noticia2.jpeg";
 import noticia3 from "../images/noticia3.jpeg";
 import fotoesquerda from '../images/jairjair.png';
-import fotodireita1 from '../images/elenunca.png';
-import fotodireita2 from '../images/elenao.png';
+// import fotodireita1 from '../images/elenunca.png';
+// import fotodireita2 from '../images/elenao.png';
 
 
 
@@ -62,6 +62,7 @@ function Bolsonaro() {
             data={data}
             options={options}
             width={"100%"}
+          
             height={"400px"}
           />
         </div>
@@ -91,7 +92,7 @@ function Bolsonaro() {
           </div>
           <div className={styles.timeText} style={{display:timeLine1?'flex':'none'}}>
             <h1>Deputado federal</h1>
-            <p> Em 1990, dois anos depois de eleito, conquistou o primeiro dos sete mandatos consecutivos no cargo de deputado federal pelo Rio de Janeiro. lore</p>
+            <p> Em 1990, dois anos depois de eleito, conquistou o primeiro dos sete mandatos consecutivos no cargo de deputado federal pelo Rio de Janeiro.</p>
             
           </div>
         </div>
@@ -113,9 +114,9 @@ function Bolsonaro() {
       </div>
       <div className={styles.partebaixo}>
         <h3>Polemicas envolvendo o Ex Presidente, e candidato Lula da Silva</h3>
-        <div className={styles.timeline}>
+        {/* <div className={styles.timeline}>
           <img src={fotoesquerda} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
-        </div>
+        </div> */}
 
         <aside className={styles.slides}>
           <BolsonaroSlide
@@ -126,13 +127,13 @@ function Bolsonaro() {
         <div className={styles.timeline}>
 
 
-          <div className={styles.cardtotal}>
+          {/* <div className={styles.cardtotal}>
             <img src={fotodireita1} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
           </div>
           <div className={styles.cardtotal}>
             <img src={fotodireita2} alt="Foto do candidato Lula" className={styles.fotoesquerda} />
 
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
