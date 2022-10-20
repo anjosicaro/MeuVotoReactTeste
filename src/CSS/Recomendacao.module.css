@@ -1,13 +1,15 @@
 .corpo {
     width: 100%;
-    height: 700px;
+    height: 800px;
     display: flex;
     gap: 30px;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    margin-bottom: 7%;
+    
+    background-image: url(../images/backImg.png);
+    background-size: 100%;
 }
 .corpo h2{
     color: #0575E6;

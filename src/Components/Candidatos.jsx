@@ -21,7 +21,6 @@ function Candidatos() {
           <a href="/Bolsonaro" className={styles.button}> Saiba mais!</a>
         </div>
       </div>
-
     </section>
   );
 }

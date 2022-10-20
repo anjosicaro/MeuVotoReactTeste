@@ -62,39 +62,39 @@ function Lula() {
         {/* ======================================= item da time ============================================== */}
         <div className={styles.timeItem}>
           <div className={styles.ano}>
-            <h1>1988</h1>
+            <h1>1980</h1>
             <button className={styles.hlinebutton} onClick={abrirTimeLine2}></button>
 
           </div>
           <div className={styles.timeText} style={{ display: timeLine2 ? 'flex' : 'none' }}>
             <h1>Legislativo da cidade </h1>
-            <p>Sua carreira política começou em 1988, quando concorreu à Câmara Municipal do Rio de Janeiro e conseguiu uma vaga no Legislativo da cidade.</p>
+            <p> Em abril de 1980, meses após a aprovação da Lei da Anistia (1979) — ainda sob a ditadura militar —, cerca de 140 mil trabalhadores da região do ABC Paulista participaram de uma greve organizada pelos sindicatos locais, inclusive o presidido por Lula.</p>
 
           </div>
         </div>
         {/* ======================================= item da time ============================================== */}
         <div className={styles.timeItem}>
           <div className={styles.ano}>
-            <h1>1990</h1>
+            <h1>1992</h1>
             <button className={styles.hlinebutton} onClick={abrirTimeLine1}></button>
 
           </div>
           <div className={styles.timeText} style={{ display: timeLine1 ? 'flex' : 'none' }}>
-            <h1>Deputado federal</h1>
-            <p> Em 1990, dois anos depois de eleito, conquistou o primeiro dos sete mandatos consecutivos no cargo de deputado federal pelo Rio de Janeiro. lore</p>
+            <h1>Instituto Cidadania</h1>
+            <p>Desde 1992, Lula atua como conselheiro do Instituto Cidadania, organização não-governamental criada após a experiência do Governo Paralelo, voltado para estudos, pesquisas, debates, publicações e principalmente formulação de propostas de políticas públicas nacionais, bem como de campanhas de mobilização da sociedade civil rumo à conquista dos direitos de cidadania para todo o povo brasileiro.</p>
 
           </div>
         </div>
         {/* ======================================= item da time ============================================== */}
         <div className={styles.timeItem}>
           <div className={styles.ano}>
-            <h1>2019</h1>
+            <h1>2003 - 2011</h1>
             <button className={styles.hlinebutton} onClick={abrirTimeLine3}></button>
 
           </div>
           <div className={styles.timeText} style={{ display: timeLine3 ? 'flex' : 'none' }}>
-            <h1>Bolsonaro na presidencia </h1>
-            <p>Jair Bolsonaro foi eleito em outubro de 2018 presidente da República com 57.797.847 dos votos, 55,13% do eleitorado brasileiro, pela Coligação Brasil Acima de Tudo, Deus Acima de Todos (PSL/PRTB). </p>
+            <h1>Lula na presidencia </h1>
+            <p>Luiz Inácio Lula da Silva, mais conhecido como Lula, é um ex-sindicalista, ex-metalúrgico e político brasileiro. Filiado ao Partido dos Trabalhadores, foi o 35.º presidente do Brasil entre 1.º de janeiro de 2003 e 1.º de janeiro de 2011</p>
           </div>
         </div>
         {/* ======================================= item da time ============================================== */}

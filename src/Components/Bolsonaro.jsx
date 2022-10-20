@@ -6,7 +6,7 @@ import { Chart } from "react-google-charts";
 import noticia1 from "../images/noticia1.jpeg";
 import noticia2 from "../images/noticia2.jpeg";
 import noticia3 from "../images/noticia3.jpeg";
-import fotoesquerda from '../images/jairjair.png';
+// import fotoesquerda from '../images/jairjair.png';
 // import fotodireita1 from '../images/elenunca.png';
 // import fotodireita2 from '../images/elenao.png';
 
